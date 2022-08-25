@@ -1,0 +1,14 @@
+D:\Git\C#Practice\SwitchCase\SwitchCase\obj\Debug\netcoreapp3.1\SwitchCase.csproj.AssemblyReference.cache
+D:\Git\C#Practice\SwitchCase\SwitchCase\obj\Debug\netcoreapp3.1\SwitchCase.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\C#Practice\SwitchCase\SwitchCase\obj\Debug\netcoreapp3.1\SwitchCase.AssemblyInfoInputs.cache
+D:\Git\C#Practice\SwitchCase\SwitchCase\obj\Debug\netcoreapp3.1\SwitchCase.AssemblyInfo.cs
+D:\Git\C#Practice\SwitchCase\SwitchCase\obj\Debug\netcoreapp3.1\SwitchCase.csproj.CoreCompileInputs.cache
+D:\Git\C#Practice\SwitchCase\SwitchCase\bin\Debug\netcoreapp3.1\SwitchCase.exe
+D:\Git\C#Practice\SwitchCase\SwitchCase\bin\Debug\netcoreapp3.1\SwitchCase.deps.json
+D:\Git\C#Practice\SwitchCase\SwitchCase\bin\Debug\netcoreapp3.1\SwitchCase.runtimeconfig.json
+D:\Git\C#Practice\SwitchCase\SwitchCase\bin\Debug\netcoreapp3.1\SwitchCase.runtimeconfig.dev.json
+D:\Git\C#Practice\SwitchCase\SwitchCase\bin\Debug\netcoreapp3.1\SwitchCase.dll
+D:\Git\C#Practice\SwitchCase\SwitchCase\bin\Debug\netcoreapp3.1\SwitchCase.pdb
+D:\Git\C#Practice\SwitchCase\SwitchCase\obj\Debug\netcoreapp3.1\SwitchCase.dll
+D:\Git\C#Practice\SwitchCase\SwitchCase\obj\Debug\netcoreapp3.1\SwitchCase.pdb
+D:\Git\C#Practice\SwitchCase\SwitchCase\obj\Debug\netcoreapp3.1\SwitchCase.genruntimeconfig.cache

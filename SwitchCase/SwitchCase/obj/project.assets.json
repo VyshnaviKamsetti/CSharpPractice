@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Customer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Customer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Customer.dll": {}
+        }
+      },
+      "Product/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Product.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Product.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Customer/1.0.0": {
+      "type": "project",
+      "path": "../Customer/Customer.csproj",
+      "msbuildProject": "../Customer/Customer.csproj"
+    },
+    "Product/1.0.0": {
+      "type": "project",
+      "path": "../Product/Product.csproj",
+      "msbuildProject": "../Product/Product.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Customer >= 1.0.0",
+      "Product >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Vyshnavi.Kamsetti\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Git\\C#Practice\\SwitchCase\\SwitchCase\\Main.csproj",
+      "projectName": "Main",
+      "projectPath": "D:\\Git\\C#Practice\\SwitchCase\\SwitchCase\\Main.csproj",
+      "packagesPath": "C:\\Users\\Vyshnavi.Kamsetti\\.nuget\\packages\\",
+      "outputPath": "D:\\Git\\C#Practice\\SwitchCase\\SwitchCase\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Vyshnavi.Kamsetti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://meridianlink.jfrog.io/artifactory/api/nuget/lqb-nuget": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Git\\C#Practice\\SwitchCase\\Customer\\Customer.csproj": {
+              "projectPath": "D:\\Git\\C#Practice\\SwitchCase\\Customer\\Customer.csproj"
+            },
+            "D:\\Git\\C#Practice\\SwitchCase\\Product\\Product.csproj": {
+              "projectPath": "D:\\Git\\C#Practice\\SwitchCase\\Product\\Product.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

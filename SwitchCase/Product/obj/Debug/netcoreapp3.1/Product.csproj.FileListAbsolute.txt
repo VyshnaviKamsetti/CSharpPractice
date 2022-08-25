@@ -1,0 +1,9 @@
+D:\Git\C#Practice\SwitchCase\Product\bin\Debug\netcoreapp3.1\Product.deps.json
+D:\Git\C#Practice\SwitchCase\Product\bin\Debug\netcoreapp3.1\Product.dll
+D:\Git\C#Practice\SwitchCase\Product\bin\Debug\netcoreapp3.1\Product.pdb
+D:\Git\C#Practice\SwitchCase\Product\obj\Debug\netcoreapp3.1\Product.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\C#Practice\SwitchCase\Product\obj\Debug\netcoreapp3.1\Product.AssemblyInfoInputs.cache
+D:\Git\C#Practice\SwitchCase\Product\obj\Debug\netcoreapp3.1\Product.AssemblyInfo.cs
+D:\Git\C#Practice\SwitchCase\Product\obj\Debug\netcoreapp3.1\Product.csproj.CoreCompileInputs.cache
+D:\Git\C#Practice\SwitchCase\Product\obj\Debug\netcoreapp3.1\Product.dll
+D:\Git\C#Practice\SwitchCase\Product\obj\Debug\netcoreapp3.1\Product.pdb

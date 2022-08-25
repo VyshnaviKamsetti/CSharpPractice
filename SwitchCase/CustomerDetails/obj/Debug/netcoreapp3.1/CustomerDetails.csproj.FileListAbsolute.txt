@@ -1,0 +1,5 @@
+D:\Git\C#Practice\SwitchCase\CustomerDetails\obj\Debug\netcoreapp3.1\CustomerDetails.csproj.AssemblyReference.cache
+D:\Git\C#Practice\SwitchCase\CustomerDetails\obj\Debug\netcoreapp3.1\CustomerDetails.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\C#Practice\SwitchCase\CustomerDetails\obj\Debug\netcoreapp3.1\CustomerDetails.AssemblyInfoInputs.cache
+D:\Git\C#Practice\SwitchCase\CustomerDetails\obj\Debug\netcoreapp3.1\CustomerDetails.AssemblyInfo.cs
+D:\Git\C#Practice\SwitchCase\CustomerDetails\obj\Debug\netcoreapp3.1\CustomerDetails.csproj.CoreCompileInputs.cache
