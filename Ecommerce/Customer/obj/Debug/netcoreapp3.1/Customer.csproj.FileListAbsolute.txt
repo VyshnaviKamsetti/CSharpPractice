@@ -1,0 +1,10 @@
+D:\Git\C#Practice\Ecommerce\Customer\bin\Debug\netcoreapp3.1\Customer.deps.json
+D:\Git\C#Practice\Ecommerce\Customer\bin\Debug\netcoreapp3.1\Customer.dll
+D:\Git\C#Practice\Ecommerce\Customer\bin\Debug\netcoreapp3.1\Customer.pdb
+D:\Git\C#Practice\Ecommerce\Customer\obj\Debug\netcoreapp3.1\Customer.csproj.AssemblyReference.cache
+D:\Git\C#Practice\Ecommerce\Customer\obj\Debug\netcoreapp3.1\Customer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\C#Practice\Ecommerce\Customer\obj\Debug\netcoreapp3.1\Customer.AssemblyInfoInputs.cache
+D:\Git\C#Practice\Ecommerce\Customer\obj\Debug\netcoreapp3.1\Customer.AssemblyInfo.cs
+D:\Git\C#Practice\Ecommerce\Customer\obj\Debug\netcoreapp3.1\Customer.csproj.CoreCompileInputs.cache
+D:\Git\C#Practice\Ecommerce\Customer\obj\Debug\netcoreapp3.1\Customer.dll
+D:\Git\C#Practice\Ecommerce\Customer\obj\Debug\netcoreapp3.1\Customer.pdb
