@@ -1,0 +1,10 @@
+D:\Git\C#Practice\Struct\Staticclass\bin\Debug\netcoreapp3.1\Staticclass.deps.json
+D:\Git\C#Practice\Struct\Staticclass\bin\Debug\netcoreapp3.1\Staticclass.dll
+D:\Git\C#Practice\Struct\Staticclass\bin\Debug\netcoreapp3.1\Staticclass.pdb
+D:\Git\C#Practice\Struct\Staticclass\obj\Debug\netcoreapp3.1\Staticclass.csproj.AssemblyReference.cache
+D:\Git\C#Practice\Struct\Staticclass\obj\Debug\netcoreapp3.1\Staticclass.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\C#Practice\Struct\Staticclass\obj\Debug\netcoreapp3.1\Staticclass.AssemblyInfoInputs.cache
+D:\Git\C#Practice\Struct\Staticclass\obj\Debug\netcoreapp3.1\Staticclass.AssemblyInfo.cs
+D:\Git\C#Practice\Struct\Staticclass\obj\Debug\netcoreapp3.1\Staticclass.csproj.CoreCompileInputs.cache
+D:\Git\C#Practice\Struct\Staticclass\obj\Debug\netcoreapp3.1\Staticclass.dll
+D:\Git\C#Practice\Struct\Staticclass\obj\Debug\netcoreapp3.1\Staticclass.pdb
