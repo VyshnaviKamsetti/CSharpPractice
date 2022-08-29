@@ -1,0 +1,238 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\HospitalApplication\\HospitalApplication.csproj": {}
+  },
+  "projects": {
+    "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Admin\\Admin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Admin\\Admin.csproj",
+        "projectName": "Admin",
+        "projectPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Admin\\Admin.csproj",
+        "packagesPath": "C:\\Users\\Vyshnavi.Kamsetti\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Admin\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vyshnavi.Kamsetti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://meridianlink.jfrog.io/artifactory/api/nuget/lqb-nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Doctor\\Doctor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Doctor\\Doctor.csproj",
+        "projectName": "Doctor",
+        "projectPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Doctor\\Doctor.csproj",
+        "packagesPath": "C:\\Users\\Vyshnavi.Kamsetti\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Doctor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vyshnavi.Kamsetti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://meridianlink.jfrog.io/artifactory/api/nuget/lqb-nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\HospitalApplication\\HospitalApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\HospitalApplication\\HospitalApplication.csproj",
+        "projectName": "HospitalApplication",
+        "projectPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\HospitalApplication\\HospitalApplication.csproj",
+        "packagesPath": "C:\\Users\\Vyshnavi.Kamsetti\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\HospitalApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vyshnavi.Kamsetti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://meridianlink.jfrog.io/artifactory/api/nuget/lqb-nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Admin\\Admin.csproj": {
+                "projectPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Admin\\Admin.csproj"
+              },
+              "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Doctor\\Doctor.csproj": {
+                "projectPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Doctor\\Doctor.csproj"
+              },
+              "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Patient\\Patient.csproj": {
+                "projectPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Patient\\Patient.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Patient\\Patient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Patient\\Patient.csproj",
+        "projectName": "Patient",
+        "projectPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Patient\\Patient.csproj",
+        "packagesPath": "C:\\Users\\Vyshnavi.Kamsetti\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Patient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vyshnavi.Kamsetti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://meridianlink.jfrog.io/artifactory/api/nuget/lqb-nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

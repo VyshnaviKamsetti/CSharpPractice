@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HospitalApplication/1.0.0": {
+        "dependencies": {
+          "Admin": "1.0.0",
+          "Doctor": "1.0.0",
+          "Patient": "1.0.0"
+        },
+        "runtime": {
+          "HospitalApplication.dll": {}
+        }
+      },
+      "Admin/1.0.0": {
+        "runtime": {
+          "Admin.dll": {}
+        }
+      },
+      "Doctor/1.0.0": {
+        "runtime": {
+          "Doctor.dll": {}
+        }
+      },
+      "Patient/1.0.0": {
+        "runtime": {
+          "Patient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HospitalApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Admin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Doctor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Patient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

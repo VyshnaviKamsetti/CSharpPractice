@@ -1,0 +1,10 @@
+D:\Git\C#Practice\HospitalApplication\HospitalApplication\Patient\bin\Debug\netcoreapp3.1\Patient.deps.json
+D:\Git\C#Practice\HospitalApplication\HospitalApplication\Patient\bin\Debug\netcoreapp3.1\Patient.dll
+D:\Git\C#Practice\HospitalApplication\HospitalApplication\Patient\bin\Debug\netcoreapp3.1\Patient.pdb
+D:\Git\C#Practice\HospitalApplication\HospitalApplication\Patient\obj\Debug\netcoreapp3.1\Patient.csproj.AssemblyReference.cache
+D:\Git\C#Practice\HospitalApplication\HospitalApplication\Patient\obj\Debug\netcoreapp3.1\Patient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\C#Practice\HospitalApplication\HospitalApplication\Patient\obj\Debug\netcoreapp3.1\Patient.AssemblyInfoInputs.cache
+D:\Git\C#Practice\HospitalApplication\HospitalApplication\Patient\obj\Debug\netcoreapp3.1\Patient.AssemblyInfo.cs
+D:\Git\C#Practice\HospitalApplication\HospitalApplication\Patient\obj\Debug\netcoreapp3.1\Patient.csproj.CoreCompileInputs.cache
+D:\Git\C#Practice\HospitalApplication\HospitalApplication\Patient\obj\Debug\netcoreapp3.1\Patient.dll
+D:\Git\C#Practice\HospitalApplication\HospitalApplication\Patient\obj\Debug\netcoreapp3.1\Patient.pdb

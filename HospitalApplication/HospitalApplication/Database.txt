@@ -1,0 +1,155 @@
+---DB creation---
+
+Create Database  HospitalManagement
+
+--Using HospitalManagement --
+
+use HospitalManagement
+
+
+--Create Table for Admin--
+
+create table AdminInfo( AdminId int primary key identity(1,1),AdminName nvarchar(20),Password nvarchar(20))
+Insert into AdminInfo values ('Mohit','abc@123Hospital')
+--Doctor Table Info--
+create table DoctorInfo(Doctorid int primary key identity(101,1), DoctorName nvarchar(20), experience nvarchar(20),specialization nvarchar(20),Course nvarchar(50))
+
+Insert into DoctorInfo values('shameema',3,'Surgeon','MBBS'),
+('Naresh',5,'Paediatrician','MBBS,FRCS'),
+('Sahithi',10,'Dentist','MBBS'),
+('Vyshnav',9,'Chiropractor','MBBS'),
+('Sheela',27,'GynicSpecialist','MBBS')
+
+Select * from DoctorInfo
+
+--create table for Patient Info---
+create table patient(PatientId int primary key identity, patientname nvarchar(20), age nvarchar(20),address nvarchar(20),WardNumber int,bedNumber int,diseace nvarchar(50), mobilenumber bigint)
+insert into patient values('Rahul','25','HYD',2,245,'Cancer',12456)
+,('rajani','44','ATP',2,246,'Hair-loss',15676),('seema','21','KDP',3,1,'Viral-Fever',876543),
+('Vishnu','67','Vizag',2,1,'Cold',875445)
+
+----Sp for Patient Tables---
+
+
+create procedure sp_InsertPatientDetails(@PatientId int,@patientname nvarchar(20),@age nvarchar(20),@address nvarchar(20),@WardNumber int,@bedNumber int,@diseace nvarchar(50), @mobilenumber bigint,@StatementType NVARCHAR(20) = '')
+as begin
+if @StatementType='Insert'
+ begin
+Insert into patient (PatientId , patientname , age ,address ,WardNumber,bedNumber,diseace,mobilenumber)values(@PatientId, @patientname,@age,@address,@WardNumber,@bedNumber,@diseace, @mobilenumber)
+end
+IF @StatementType = 'Update'
+ begin
+Update patient set patientname=@patientname,age=@age,address=@address,WardNumber=@WardNumber,bedNumber=@bedNumber,diseace=@diseace,mobilenumber=@mobilenumber where PatientId=@PatientId
+end
+if @StatementType ='Select'
+begin 
+Select * from patient
+end 
+
+else if @StatementType='Delete'
+begin
+Delete from patient where PatientId=@PatientId
+end
+end
+exec sp_InsertPatientDetails 
+
+---sp for Doctor Table---
+create procedure sp_InsertDoctorDetails(@Doctorid int,@DoctorName nvarchar(20),@experience nvarchar(20),@specialization nvarchar(20),@Course nvarchar(50),@StatementType NVARCHAR(20) = '')
+as begin
+if @StatementType='Insert'
+ begin
+Insert into DoctorInfo (Doctorid , DoctorName , experience ,specialization ,Course)values(@Doctorid ,@DoctorName ,@experience ,@specialization,@Course)
+end
+IF @StatementType = 'Update'
+ begin
+Update DoctorInfo set DoctorName=@DoctorName,experience=@experience,specialization=@specialization,Course=@Course where Doctorid=@Doctorid
+end
+if @StatementType ='Select'
+begin 
+Select * from DoctorInfo
+end 
+
+else if @StatementType='Delete'
+begin
+Delete from DoctorInfo where Doctorid=@Doctorid
+end
+end
+exec sp_InsertDoctorDetails 
+--lOG Tables--
+
+
+create table patientLog(LogID int identity(100,1),PatientId int, Operation nvarchar(20), updateddate Datetime);
+ drop table patientLog
+ select * from patientLog;
+
+create trigger patientInsertTrigger
+ on patient
+ for insert
+ as 
+ insert into patientLog(LogID,Operation,updateddate)
+ select PatientId,'Data Inserted', GETDATE() from inserted
+  SET IDENTITY_INSERT dbo.PatientLog ON
+
+ insert into patient values ('Vishnu','67','Vizag',2,1,'Cold',875445);
+
+
+
+create table doctorlog(Doctorid int identity(140,1),Operation nvarchar(20),Updateddate Datetime )
+select* from doctorlog
+
+create trigger doctorInsertTrigger
+ on patient
+ for insert
+ as 
+ insert into doctorlog(Doctorid,Operation,updateddate)
+ select PatientId,'Data Inserted', GETDATE() from inserted
+
+
+
+
+
+
+
+
+
+
+
+
+create table bed(Bedid int primary key identity(1,1), availability nvarchar(20), Bedtype nvarchar(20))
+insert into bed values('Yes','Normal')
+insert into bed values('Yes','Ac')
+insert into bed values('Yes','Noraml')
+insert into bed values('Yes','Normal')
+insert into bed values('No','Normal')
+
+
+
+
+ --Stored Procedures  for Bed Deatils--
+
+create procedure sp_BedList
+as 
+begin
+  select * from bed;
+end
+
+exec sp_bedList;
+
+
+
+--trigger for Bed Log--
+
+create table bedlog(LogID int identity(100,1),Bedid int, Operation nvarchar(20), updateddate Datetime);
+
+ select * from bedlog;
+
+
+ create trigger BedInsertTrigger
+ on bed
+ for insert
+ as 
+ insert into bedlog(Bedid,Operation,updateddate)
+ select Bedid,'Data Inserted', GETDATE() from inserted
+
+insert into bed values('Yes','Deluxe') 
+ 

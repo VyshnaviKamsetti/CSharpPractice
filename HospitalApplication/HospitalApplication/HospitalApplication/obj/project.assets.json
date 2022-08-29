@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Admin/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Admin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Admin.dll": {}
+        }
+      },
+      "Doctor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Doctor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Doctor.dll": {}
+        }
+      },
+      "Patient/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Patient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Patient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Admin/1.0.0": {
+      "type": "project",
+      "path": "../Admin/Admin.csproj",
+      "msbuildProject": "../Admin/Admin.csproj"
+    },
+    "Doctor/1.0.0": {
+      "type": "project",
+      "path": "../Doctor/Doctor.csproj",
+      "msbuildProject": "../Doctor/Doctor.csproj"
+    },
+    "Patient/1.0.0": {
+      "type": "project",
+      "path": "../Patient/Patient.csproj",
+      "msbuildProject": "../Patient/Patient.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Admin >= 1.0.0",
+      "Doctor >= 1.0.0",
+      "Patient >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Vyshnavi.Kamsetti\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\HospitalApplication\\HospitalApplication.csproj",
+      "projectName": "HospitalApplication",
+      "projectPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\HospitalApplication\\HospitalApplication.csproj",
+      "packagesPath": "C:\\Users\\Vyshnavi.Kamsetti\\.nuget\\packages\\",
+      "outputPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\HospitalApplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Vyshnavi.Kamsetti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://meridianlink.jfrog.io/artifactory/api/nuget/lqb-nuget": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Admin\\Admin.csproj": {
+              "projectPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Admin\\Admin.csproj"
+            },
+            "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Doctor\\Doctor.csproj": {
+              "projectPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Doctor\\Doctor.csproj"
+            },
+            "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Patient\\Patient.csproj": {
+              "projectPath": "D:\\Git\\C#Practice\\HospitalApplication\\HospitalApplication\\Patient\\Patient.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

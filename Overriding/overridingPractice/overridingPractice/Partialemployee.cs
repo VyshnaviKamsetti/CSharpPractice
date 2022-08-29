@@ -19,11 +19,10 @@ namespace overridingPractice
             Console.WriteLine("Salary :{0}", Salary);
             Console.WriteLine("Age :{0}", age);
             Console.WriteLine("MobileNumber :{0}", MobileNumber);
-            Console.WriteLine("MobileNumber :{0}", MobileNumber);
             Console.WriteLine("Address :{0}", Address);
             Console.WriteLine("Gender :{0}", Gender);
 
         }
-
+       
     }
 }
