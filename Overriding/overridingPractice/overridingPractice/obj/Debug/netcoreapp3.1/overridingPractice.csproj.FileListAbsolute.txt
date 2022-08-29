@@ -1,0 +1,14 @@
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\bin\Debug\netcoreapp3.1\overridingPractice.exe
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\bin\Debug\netcoreapp3.1\overridingPractice.deps.json
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\bin\Debug\netcoreapp3.1\overridingPractice.runtimeconfig.json
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\bin\Debug\netcoreapp3.1\overridingPractice.runtimeconfig.dev.json
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\bin\Debug\netcoreapp3.1\overridingPractice.dll
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\bin\Debug\netcoreapp3.1\overridingPractice.pdb
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\obj\Debug\netcoreapp3.1\overridingPractice.csproj.AssemblyReference.cache
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\obj\Debug\netcoreapp3.1\overridingPractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\obj\Debug\netcoreapp3.1\overridingPractice.AssemblyInfoInputs.cache
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\obj\Debug\netcoreapp3.1\overridingPractice.AssemblyInfo.cs
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\obj\Debug\netcoreapp3.1\overridingPractice.csproj.CoreCompileInputs.cache
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\obj\Debug\netcoreapp3.1\overridingPractice.dll
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\obj\Debug\netcoreapp3.1\overridingPractice.pdb
+D:\Git\C#Practice\Overriding\overridingPractice\overridingPractice\obj\Debug\netcoreapp3.1\overridingPractice.genruntimeconfig.cache
