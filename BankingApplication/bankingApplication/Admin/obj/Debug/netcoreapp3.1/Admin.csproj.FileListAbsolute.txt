@@ -1,0 +1,10 @@
+D:\Git\C#Practice\BankingApplication\bankingApplication\Admin\bin\Debug\netcoreapp3.1\Admin.deps.json
+D:\Git\C#Practice\BankingApplication\bankingApplication\Admin\bin\Debug\netcoreapp3.1\Admin.dll
+D:\Git\C#Practice\BankingApplication\bankingApplication\Admin\bin\Debug\netcoreapp3.1\Admin.pdb
+D:\Git\C#Practice\BankingApplication\bankingApplication\Admin\obj\Debug\netcoreapp3.1\Admin.csproj.AssemblyReference.cache
+D:\Git\C#Practice\BankingApplication\bankingApplication\Admin\obj\Debug\netcoreapp3.1\Admin.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\C#Practice\BankingApplication\bankingApplication\Admin\obj\Debug\netcoreapp3.1\Admin.AssemblyInfoInputs.cache
+D:\Git\C#Practice\BankingApplication\bankingApplication\Admin\obj\Debug\netcoreapp3.1\Admin.AssemblyInfo.cs
+D:\Git\C#Practice\BankingApplication\bankingApplication\Admin\obj\Debug\netcoreapp3.1\Admin.csproj.CoreCompileInputs.cache
+D:\Git\C#Practice\BankingApplication\bankingApplication\Admin\obj\Debug\netcoreapp3.1\Admin.dll
+D:\Git\C#Practice\BankingApplication\bankingApplication\Admin\obj\Debug\netcoreapp3.1\Admin.pdb

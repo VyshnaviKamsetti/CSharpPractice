@@ -1,0 +1,39 @@
+
+create table Admin (UserId nvarchar(30),Password nvarchar(10))
+
+insert into Admin values ('Admin','Admin@123')
+
+create table BankingDetails(BankName nvarchar(20), AccountId bigint primary key identity (12345,1),AccountHolderName nvarchar(30),Branch nvarchar(20),IFSC nvarchar(16),DateOfBirth datetime,Address nvarchar(100))
+
+insert into BankingDetails values('SBI','Vyshnavi Kamsetti','HYD','SBIN0001','12/06/2000','HYD')
+
+select * from BankingDetails
+
+create table BankingDetails_Log(LogId bigint primary key ,Operation nvarchar(20),Updateddate Datetime)
+
+
+alter trigger BankingDetailstrigger 
+on 
+BankingDetails
+for insert 
+as 
+insert into BankingDetails_Log (LogId,Operation,Updateddate)
+select AccountId,'Data Inserted', GETDATE() from inserted
+
+create trigger BankingDetailsDeletetrigger 
+on 
+BankingDetails
+for Delete 
+as 
+insert into BankingDetails_Log (LogId,Operation,Updateddate)
+select AccountId,'Data Deleted', GETDATE() from inserted
+
+select * from BankingDetails_Log
+
+
+
+
+
+
+
+
